@@ -6,7 +6,7 @@
 # 使用
 ```
 $tmpl = 'sample'; //模板名称，示例为sample.html
-$data = array(); //演示数据，示例数据在sample.php
+$data = array(); //渲染数据，示例数据在sample.php
 $html = html_render($tmpl,$data);
 /*
 缓存为md5($tmpl)，首次运行自动生成缓存文件
